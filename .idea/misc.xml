@@ -4,8 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/79874/AndroidStudioProjects/SummerPractice22-master/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.311" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable/ic_baseline_chat.xml" value="0.2665" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable/ic_baseline_menu.xml" value="0.311" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable/ic_baseline_person.xml" value="0.311" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.311" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/drawable/ic_launcher_background.xml" value="0.311" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_chats.xml" value="0.1838905775075988" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_first.xml" value="0.3103890551517743" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_music.xml" value="0.32038834951456313" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_news.xml" value="0.3095339888841385" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_planets.xml" value="0.29884566053869177" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_profile.xml" value="0.378125" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_settings.xml" value="0.3103890551517743" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/item_planet.xml" value="0.297990594271056" />
+        <entry key="..\:/Users/79874/Documents/GitHub/SummerPractice2022/app/src/main/res/menu/menu_main.xml" value="0.3770833333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/SummerPractice22/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Asus/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/activity_main.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Asus/Documents/GitHub/SummerPractice2022/app/src/main/res/layout/fragment_main_.xml" value="0.20652173913043478" />
       </map>
     </option>
   </component>
