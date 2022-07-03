@@ -11,6 +11,7 @@ import androidx.navigation.findNavController
 import com.example.summerpractice22.R.layout.fragment_chats
 
 class ChatsFragment: Fragment(fragment_chats) {
+    
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
