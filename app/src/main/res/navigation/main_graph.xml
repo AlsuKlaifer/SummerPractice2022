@@ -21,7 +21,7 @@
         android:id="@+id/firstFragment"
         android:name="ThirdHomework.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" >
+        tools:layout="@layout/fragment_planets" >
         <action
             android:id="@+id/action_firstFragment_to_musicFragment"
             app:destination="@id/musicFragment" />

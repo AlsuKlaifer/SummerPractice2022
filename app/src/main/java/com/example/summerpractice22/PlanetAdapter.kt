@@ -3,25 +3,39 @@ package com.example.summerpractice22
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.RequestManager
 import com.example.summerpractice22.databinding.ItemPlanetBinding
 
-class PlanetAdapter(private val list: List<Planet>, function: () -> Unit): RecyclerView.Adapter<PlanetHolder>() {
+class PlanetAdapter(
+    private var list: List<Planet>,
+    private val glide: RequestManager,
+    private val onItemClick: (Planet) -> Unit,
+) : RecyclerView.Adapter<PlanetHolder>() {
 
-        val playersList = ArrayList<Planet>()
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PlanetHolder = PlanetHolder(
-            ItemPlanetBinding.inflate(
-                LayoutInflater.from(parent.context),
-                parent,
-                false
-            )
-        )
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): PlanetHolder = PlanetHolder(
+        binding = ItemPlanetBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        ),
+        glide = glide,
+        onItemClick = onItemClick
+    )
 
-        override fun onBindViewHolder(holder: PlanetHolder, position: Int) {
-            holder.onBind(playersList[position])
-        }
-
-        override fun getItemCount(): Int {
-            return playersList.size
-        }
-
+    override fun onBindViewHolder(
+        holder: PlanetHolder,
+        position: Int
+    ) {
+        holder.onBind(list[position])
     }
+
+    override fun getItemCount(): Int = list.size
+
+    fun updateData(newList: List<Planet>) {
+        list = newList
+        notifyDataSetChanged()
+    }
+}

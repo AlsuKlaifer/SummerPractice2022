@@ -4,8 +4,10 @@ data class Planet(
     val id: Int,
     val name: String,
     val position: Int,
-    val weight: Int,
-    val temperature: Int
+    val weight: Double,
+    val number_of_sputnik: Int,
+    val system: String,
+    val picture: String = ""
 )
 
 
