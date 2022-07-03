@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_newsFragment"
-            app:destination="@id/newsFragment" />
+            app:destination="@id/newsFragment"/>
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -52,7 +52,5 @@
     </fragment>
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.example.summerpractice22.NewsFragment"
-        android:label="NewsFragment"
-        tools:layout="@layout/fragment_news"/>
+        android:name="com.example.summerpractice22.NewsFragment" />
 </navigation>
